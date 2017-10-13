@@ -4,13 +4,6 @@ import android.hardware.Camera;
 
 public class CommonUtil {
 
-    /**
-     * @author miao
-     * @createTime 2017年2月10日
-     * @lastModify 2017年2月10日
-     * @param
-     * @return
-     */
     public static boolean isCameraCanUse() {
             boolean canUse = true;
             Camera mCamera = null;

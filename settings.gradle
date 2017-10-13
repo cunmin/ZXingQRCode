@@ -1,1 +1,1 @@
-include ':app', ':zxing_qrcode'
+include ':app', ':zxing-qrcode'

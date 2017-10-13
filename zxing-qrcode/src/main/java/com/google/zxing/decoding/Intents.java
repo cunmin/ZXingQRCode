@@ -42,18 +42,18 @@ public final class Intents {
      */
     public static final String MODE = "SCAN_MODE";
 
-    /**
-     * Comma-separated list of formats to scan for. The values must match the names of
-     * {@link com.google.zxing.BarcodeFormat}s, such as {@link com.google.zxing.BarcodeFormat#EAN_13}.
-     * Example: "EAN_13,EAN_8,QR_CODE"
-     *
-     * This overrides {@link #MODE}.
-     */
+//    /**
+//     * Comma-separated list of formats to scan for. The values must match the names of
+//     * {@link com.google.zxing.BarcodeFormat}s, such as {@link com.google.zxing.BarcodeFormat#EAN_13}.
+//     * Example: "EAN_13,EAN_8,QR_CODE"
+//     *
+//     * This overrides {@link #MODE}.
+//     */
     public static final String SCAN_FORMATS = "SCAN_FORMATS";
 
-    /**
-     * @see com.google.zxing.DecodeHintType#CHARACTER_SET
-     */
+//    /**
+//     * @see com.google.zxing.DecodeHintType#CHARACTER_SET
+//     */
     public static final String CHARACTER_SET = "CHARACTER_SET";
 
     /**
